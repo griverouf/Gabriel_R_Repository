@@ -13,6 +13,12 @@ def decoder(encoded_password):
         password += shifted_digit
     return password
 
+# def decoder(y):
+#     answer = []
+#     for i in y:
+#         i = (i + 7) % 10
+#         answer.append(i)
+#     return answer
 
 if __name__ == "__main__":
     while True:
